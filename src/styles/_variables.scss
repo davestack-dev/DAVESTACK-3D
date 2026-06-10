@@ -1,0 +1,57 @@
+// =============================================================================
+// DESIGN TOKENS - ITom Portfolio
+// =============================================================================
+
+// Colors
+$color-white: #ffffff;
+$color-black: #0a0a0a;
+$color-gray: #1a1a1a;
+$color-neon-green: #39ff14;
+
+// Modern Cool palette (alternative tint)
+$color-bg-cool: #f5f8ff;
+$color-surface-cool: #eef4ff;
+$color-text-cool: #0f1724;
+$color-primary-cool: #5d8bf4;
+$color-accent-cool: #00d4ff;
+
+// Expose as CSS custom properties (defaults to Modern Cool)
+:root {
+  --bg: #{$color-bg-cool};
+  --surface: #{$color-surface-cool};
+  --text: #{$color-text-cool};
+  --primary: #{$color-primary-cool};
+  --accent: #{$color-accent-cool};
+}
+
+// Typography
+$font-title: "Gloria Hallelujah", cursive;
+$font-handwritten: "Caveat", cursive;
+$font-primary:
+  "Inter",
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
+
+// Breakpoints
+$breakpoint-mobile: 480px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-wide: 1440px;
+
+// Z-index layers
+$z-preloader: 100;
+$z-canvas: 1;
+$z-ui: 50;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-normal: 0.4s ease;
+$transition-slow: 0.8s ease;
+
+// Spacing
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 4rem;
+$spacing-xl: 8rem;
